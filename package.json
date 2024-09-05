@@ -18,9 +18,12 @@
   "description": "",
   "dependencies": {
     "@types/cors": "^2.8.17",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.6.0"
+    "http-status": "^1.7.4",
+    "mongoose": "^8.6.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
@@ -28,6 +31,7 @@
     "eslint": "^9.9.1",
     "globals": "^15.9.0",
     "prettier": "^3.3.3",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.3.0"
   }

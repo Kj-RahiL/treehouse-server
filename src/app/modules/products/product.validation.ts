@@ -5,7 +5,7 @@ export const createProductValidationSchema = z.object({
     title: z.string().min(1, 'Title is required'),
     price: z.number().positive('Price must be a positive number'),
     category: z.string().min(1, 'Category is required'),
-    quantity: z
+    stock: z
       .number()
       .int()
       .nonnegative('Quantity must be a non-negative integer'),

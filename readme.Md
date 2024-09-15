@@ -1,4 +1,4 @@
-# 🌱 Online Nursery Website
+# Tree🌱House
 
 ## Live Url: https://treehouse-client.vercel.app
 
@@ -104,7 +104,8 @@ All the routes on the website are accessible without authentication.
     ```
     http://localhost:5000
 
-    get all product
+    # get all product
+
     http://localhost:5000/api/v1/product
 
 
